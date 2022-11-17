@@ -114,3 +114,81 @@ img {
     <li><a href="Contact.html" target="_blank">Contact Info</a></li>
 </ul>
 
+<form>
+    <H3>Your Contact Info</H3>
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="pnum">Phone Number (optional):</label><br>
+    <input type="text" id="pnum" name="pnum"><br>
+    <br>
+    <h3>Which Browser are You Using</h3>
+    <input id="firefox" name="firefox" type="checkbox" value="Firefox">
+    <label for="firefox">Firefox</label>
+    <br>
+    <input id="chrome" name="chrome" type="checkbox" value="Google Chrome">
+    <label for="chrome">Google Chrome</label>
+    <br>
+    <input id="edge" name="edge" type="checkbox" value="Microsoft Edge">
+    <label for="edge">Microsoft edge</label>
+
+    <h3>Which Operation System are You Using</h3>
+    <input id="linux" name="linux" type="radio" value="linux">
+    <label for="linux">Linux</label>
+    <br>
+    <input id="wind" name="wind" type="radio" value="wind">
+    <label for="wind">Windows 10/11</label>
+    <br>
+    <input id="mac" name="mac" type="radio" value="Mac">
+    <label for="mac">Mac</label>
+
+    <h3>What do You Think of My Site</h3>
+    <select name="rate">
+        <option value>Select One of the Following:</option>
+        <option value="Excellent">Excellent</option>
+        <option value="Good">Good</option>
+        <option value="Alright">Alright</option>
+        <option value="Needs Improvements">Needs Work</option>
+        <option value="Worst Site Ever Made">Worst Site Ever</option>
+    </select>
+    <br>
+    <br>
+
+    <h3>Definition of Options</h3>
+    <table>
+        <tbody>
+            <tr>
+                <th>Rating</th>
+                <th>Definition</th>
+            </tr>
+            <tr>
+                <th>Excellent</th>
+                <th>Excellent means there is nothing wrong with my site, not a single flaw</th>
+            </tr>
+            <tr>
+                <th>Good</th>
+                <th>This means the site looks good but it has its flaws.</th>
+            </tr>
+            <tr>
+                <th>Alright</th>
+                <th>The site is functional, needs a lot of work</th>
+            </tr>
+            <tr>
+                <th>Needs Work</th>
+                <th>Site is up and has good aspects, needs a ton of work</th>
+            </tr>
+            <tr>
+                <th>Worst Site Ever</th>
+                <th>Nothing good about this site</th>
+            </tr>
+        </tbody>
+    </table>
+<br>
+<br>
+    <textarea cols="35" id="comments" name="comments" placeholder="* Leave your comments here." required="" rows="5"></textarea>
+    <br>
+    <input style="margin-top: 25px;"type="Submit">
+</form>
+</body>
+</html>
